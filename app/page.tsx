@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12 mt-8 text-gray-800 bg-[#e0f2f1] bg-opacity-40 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+    <main className="max-w-3xl mx-auto px-6 py-12 mt-5 text-gray-800 bg-[#e0f2f1] bg-opacity-40 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
       <h1 className="text-3xl font-bold mb-6">
         Ajuste de Altura de Cuerdas (String Height)
       </h1>
@@ -23,10 +23,10 @@ const Home = () => {
         </p>
         <ul className="list-disc list-inside space-y-2">
           <li>
-            Cuerda más grave (6ª): <strong>4/64"</strong> (~1.6 mm)
+            Cuerda más grave (6ª): <strong>4/64&quot;</strong> (~1.6 mm)
           </li>
           <li>
-            Cuerda más aguda (1ª): <strong>3/64"</strong> (~1.2 mm)
+            Cuerda más aguda (1ª): <strong>3/64&quot;</strong> (~1.2 mm)
           </li>
         </ul>
         <p className="mt-4 text-sm text-gray-500">
